@@ -1,32 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Daniel Rodriguez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Mitr:wght@200;300;400&family=Source+Code+Pro:wght@200;400&family=VT323&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-info-subtle">
+    <nav class="navbar navbar-expand-lg" style="font-family: 'Mitr', sans-serif;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">DR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Experiences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <button class="btn btn-sm btn-outline-info" type="button">Resume</button>
+          </div>
+        </div>
+      </nav>
     <div class="container">
-        <h1>Things I've Built</h1>
+        <h1 class="p-md-5" style="font-family:'Inter', sans-serif;">Things I've Built</h1>
+    <div class="row">
+        <div class="col">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="statics/images/SparkW1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="statics/images/SparkW2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="statics/images/SparkW3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="statics/images/SparkW4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="statics/images/SparkW5.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="col">
+            <h2 class="mb-3" style="text-align: right; font-family:'Inter', sans-serif;">SparkWave Data Maestro</h2>
+            <div class="">
+                <p style="font-family: 'Source Code Pro', monospace; font-weight: 400;">Harness the elemental forces of data with finesse and precision. All-in-one virtuoso for Data Acquisition and Conversion (DAC/ADC).</p>
+            </div>
+            
+            <div>
+                <span class="badge text-bg-info m-1">FPGA - Xilinx - Spartan3</span>
+                <span class="badge text-bg-info m-1">USB - FTDI - Cypress</span> 
+                <span class="badge text-bg-info m-1">DAC - ADC - TI</span>
+            </div>
+            <div>
+                <span class="badge text-bg-info m-1">VHDL</span>
+                <span class="badge text-bg-info m-1">MatLab</span>
+            </div>
+            <a href="https://repository.usta.edu.co/handle/11634/3454">Usta Repository</a>
+        
+        </div>
+    </div>
 
     
     
-    <h2>SparkWave Data Maestro</h2>
-    <p>Harness the elemental forces of data with finesse and precision. All-in-one virtuoso for Data Acquisition and Conversion (DAC/ADC).</p>
-    <ul>Devices
-        <li>FPGA - Xilinx - Spartan3</li>
-        <li>USB - FTDI - Cypress</li>
-        <li>DAC - ADC - Texas Instruments</li>
-    </ul>
-    <ul>Programing Languages
-        <li>VHDL</li>
-        <li>MatLab</li>
 
-    </ul>
-    <a href="https://repository.usta.edu.co/handle/11634/3454">Usta Repository</a>
-    <p>Inst</p>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
