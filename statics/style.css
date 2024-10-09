@@ -1,0 +1,66 @@
+/* HEADER */
+.header p, .header a{
+    color: rgb(96, 106, 102);
+}
+.header strong, .header h1{
+    color: rgb(43, 60, 51);
+}
+
+/* PRO SUMMARY */
+.pro-summary{
+    background-color: rgb(238, 236, 238);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.pro-summary h1{
+    color: rgb(43, 60, 51);
+}
+.pro-summary p{
+    color: rgb(96, 106, 102);
+}
+
+/* EDUCATION */
+.education h1{
+    color: rgb(43, 60, 51);
+}
+.education p{
+    color: rgb(96, 106, 102);
+}
+
+
+/* EXPERIENCE */
+.work-experience h1{
+    color: rgb(43, 60, 51);
+}
+.work-experience p, .work-experience li{
+    color: rgb(96, 106, 102);
+}
+
+
+/* TECH SKILLS */
+.tech-skills h1{
+    color: rgb(43, 60, 51);
+}
+.tech-skills p, .tech-skills li{
+    color: rgb(96, 106, 102);
+}
+
+
+/* SELECTED PROJ */
+.selected-projects h1{
+    color: rgb(43, 60, 51);
+}
+.selected-projects p{
+    color: rgb(96, 106, 102);
+}
+
+.selected-projects a{
+    text-decoration: none;
+}
+.subtitle span{
+    color: white;
+    background-color: rgb(43, 60, 51);
+}
+.subtitle{
+    margin-top: 2rem;
+}
