@@ -5,6 +5,9 @@
 .header strong, .header h1{
     color: rgb(43, 60, 51);
 }
+.header a{
+    text-decoration: none;
+}
 
 /* PRO SUMMARY */
 .pro-summary{
